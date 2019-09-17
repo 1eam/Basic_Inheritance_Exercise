@@ -1,22 +1,20 @@
 package inheritance;
 
-public class Book {
-	private String title;
-	private String author;
+public class Book extends LiteratureFundament{
+
 	private String publisher;
 	private String genre;
 	
 	public Book(String title, String author, String publisher, String genre)
 	{
-		this.title = title;
-		this.author = author;
+		super(title, author);
 		this.publisher = publisher;
 		this.genre = genre;
 	}
 	
 	public void Print()
 	{
-		System.out.println(title);
+		super.Print();
 		System.out.println("\tPublished by\t" + publisher);
 		System.out.println("\tGenre \t\t" + genre);	
 	}
