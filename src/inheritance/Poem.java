@@ -23,7 +23,8 @@ public class Poem extends LiteratureFundament{
 		
 	}
 	
-	public void Print()
+	/*"@Override" Ok now we've properly "overridden" this function.., by also letting know our fellow programmers (myself) that there's a function HIDING behind this function thats ACTUALLY being executed*/
+	@Override public void Print()
 	{
 /*This function/statement will now be redundant. Our LiteratureFundamentals-class handles this.(super.Print(); Nice consideration though. This also shows how we can implement more functions in this block. ('Oh wait, such as: printing our style string)*/
 //		System.out.println(title);
