@@ -14,11 +14,13 @@ public class Poem extends LiteratureFundament{
 //	private String title;
 //	private String author;
 	private String style;
-//	public Poem(String title, String author, String style)
+	
+	public Poem(String title, String author, String style)
 	{
-//		this.title = title;
-//		this.author = author;
+//		our super takes the required attributes THIS constructor needs (were able to do this cause our poem class extends LiteratureFundament(-als):D || Now Finally our Main Method can understand
+		super(title,author);
 		this.style = style;
+		
 	}
 	
 	public void Print()
