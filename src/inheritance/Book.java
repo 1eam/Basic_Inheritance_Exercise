@@ -17,7 +17,6 @@ public class Book {
 	public void Print()
 	{
 		System.out.println(title);
-		System.out.println("\tWritten by\t" + author);
 		System.out.println("\tPublished by\t" + publisher);
 		System.out.println("\tGenre \t\t" + genre);	
 	}

@@ -25,8 +25,11 @@ public class Poem extends LiteratureFundament{
 	
 	public void Print()
 	{
-		System.out.println(title);
-		System.out.println("\tStyle\t\t" + style);
+/*This function/statement will now be redundant. Our LiteratureFundamentals-class handles this.(super.Print(); Nice consideration though. This also shows how we can implement more functions in this block. ('Oh wait, such as: printing our style string)*/
+//		System.out.println(title);
+//		System.out.println("\tStyle\t\t" + style);
+		super.Print();	  /*<-- Now this is called overriding. We're using our LiteratureFundament's Print Function*/
+		System.out.println("\tIn the style of\t" + style);
 	}
 	
 

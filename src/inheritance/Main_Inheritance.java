@@ -14,5 +14,4 @@ public class Main_Inheritance {
 		b.Print();
 		c.Print();
 	}
-
 }
