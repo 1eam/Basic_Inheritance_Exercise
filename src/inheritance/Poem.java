@@ -1,5 +1,5 @@
 /*The following variables: title & author are currently redundant.
-  As well as our entire constructor at the moment, because of the newly created superclass.
+  As well as our entire constructor at the moment. This is because of our newly created superclass.
   
   --MEANING EXTENDS--
   In more Java terms, we're saying that the Poem subclass inherits (so extends) from the Literature class.
